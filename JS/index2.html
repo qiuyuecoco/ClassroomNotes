@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="JSSCSS/CSS/js.css">
+    <link src="JSFiles/main2.js">
+    <script>
+        var Duck = function() {
+            this.quack = function() {alert('Quaaaaaack!');};
+            this.feathers = function() {alert('The duck has white and gray feathers.');};
+            return this;
+        };
+
+        var Person = function() {
+            this.quack = function() {alert('The person imitates a duck.');};
+            this.feathers = function() {alert('The person takes a feather from the ground and shows it.');};
+            this.name = function() {alert('John Smith');};
+            return this;
+        };
+
+        var inTheForest = function(object) {
+            object.quack();
+            object.feathers();
+        };
+
+        var game = function() {
+            var donald = new Duck();
+            var john = new Person();
+            inTheForest(donald);
+
+        };
+
+        game();
+    </script>
+</head>
+<body>
+
+
+</body>
+</html>

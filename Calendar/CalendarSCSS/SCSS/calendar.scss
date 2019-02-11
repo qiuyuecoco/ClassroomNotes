@@ -1,0 +1,153 @@
+$backcolor: bisque;
+$color1: #18323D;
+$color2: #2f7278;
+$color3: #6bb8b4;
+$color4: #d4aba4;
+$color5: #fae2d5;
+$myblue: #3781C5;
+$myred: #EE5556;
+
+
+html{
+  height: 100%;
+}
+body{
+  width: 100%;
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@mixin defaultbtn($color: $backcolor){
+  padding: 12px 18px;
+  font-size: 13px;
+  background-color: $color;
+  border: 1px solid $color1;
+  color: $color2;
+  border-radius: 4px;
+}
+@mixin cont(){
+  border: 1px solid #dadfea;
+  border-radius: 4px;
+}
+.titlebar{
+  background-color: $color2;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+}
+.comp{
+  @include cont;
+  min-height: 300px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  .header{
+    @extend .titlebar;
+  }
+  .middle{
+    height: 240px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+.calendar{
+  @extend .middle;
+}
+}
+.btn{
+  @include defaultbtn;
+}
+.actionbtn{
+  @include defaultbtn($color3);
+  color: #ffffff;
+  background-color: $color3;
+  border: 1px solid $color1;
+  -webkit-box-shadow: 2px 2px 10px 1px rgba(24,50,61,1);
+  -moz-box-shadow: 2px 2px 10px 1px rgba(24,50,61,1);
+  box-shadow: 2px 2px 10px 1px rgba(24,50,61,1);
+}
+.container{
+  width: 800px;
+  .top{
+    display: flex;
+    justify-content: space-between;
+    .left{
+      width: 48%;
+    }
+    .right{
+      width: 48%;
+    }
+  }
+  .footer{
+    @include cont;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+}
+
+@import "date";
+
+//@mixin defaultbtn($radius){
+//  text-decoration: none;
+//  text-align: center;
+//  color: $color1;
+//  border-radius: $radius;
+//  background-color: $color5;
+//  padding: 12px 18px;
+//  font-size: 13px;
+//}
+//@mixin flexcenter($style){
+//  display: flex;
+//  justify-content: center;
+//  align-items: center;
+//  border-radius: $style;
+//  font-size: 14px;
+//}
+//
+//@mixin comp (){
+//  border: 1px solid $color2;
+//  border-radius: 5px;
+//}
+//
+//html, body{
+//  width: 100%;
+//  height: 100%;
+//  margin: 0;
+//  padding: 0;
+//  background-color: #eeeeee;
+//  font-family: "Roboto", sans-serif;
+//  @include flexcenter(0);
+//}
+//
+//.container{
+//  @include flexcenter(5px);
+//  flex-direction: column;
+//  .top{
+//    .comp{
+//      background-color: #7c869e;
+//      @include comp();
+//    }
+//  }
+//  .left{
+//    @include flexcenter(5px);
+//
+//  }
+//  .right{
+//
+//  }
+//}
+//
+//footer{
+//  @include flexcenter(5px);
+//  .footleft{
+//    button{
+//      @include defaultbtn(5px);
+//    }
+//  }
+//}

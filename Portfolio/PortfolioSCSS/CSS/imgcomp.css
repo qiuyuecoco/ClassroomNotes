@@ -1,0 +1,18 @@
+.container {
+  width: 95%;
+  height: 95%;
+  color: #000a3b;
+  padding: 20px;
+  display: block; }
+  .container .left {
+    display: flex;
+    height: 400px;
+    width: 95%;
+    background-color: cornflowerblue; }
+    .container .left .nametitle {
+      width: 45%;
+      background-size: contain;
+      background-repeat: no-repeat;
+      display: flex;
+      flex-flow: column;
+      text-align: center; }

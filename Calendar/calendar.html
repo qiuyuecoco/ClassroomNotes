@@ -1,0 +1,95 @@
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+    <!--<meta charset="UTF-8">-->
+    <!--<title>Calendar</title>-->
+    <!--<link rel="stylesheet" href="CalendarSCSS/CSS/calendar.css">-->
+    <!--<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">-->
+<!--</head>-->
+<!--<body>-->
+
+    <!--<div class="container">-->
+        <!--<div class="top">-->
+            <!--<div class="left">-->
+                <!--<div class="comp">-->
+                    <!--Calendar-->
+                <!--</div>-->
+                <!--<div class="middle">-->
+                    <!--<span>January</span>-->
+                <!--</div>-->
+            <!--</div>-->
+            <!--<div class="right">-->
+                <!--<div class="comp">-->
+                    <!--Clock-->
+                <!--</div>-->
+                <!--<div class="middle">-->
+                    <!--<span>10:30am</span>-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+    <!--</div>-->
+
+    <!--<footer>-->
+        <!--<div class="footleft">-->
+            <!--<button><a href="#">Button</a></button>-->
+        <!--</div>-->
+        <!--<div class="footright">-->
+            <!--<button><a href="#">Button</a></button>-->
+            <!--<button class="action"><a href="#">Button</a></button>-->
+        <!--</div>-->
+    <!--</footer>-->
+<!--</body>-->
+<!--</html>-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="CalendarSCSS/CSS/calendar.css">
+</head>
+<body>
+<div class="container">
+    <div class="top">
+        <div class="left">
+            <div class="comp">
+                <div class="header">
+                    <span>Calendar</span>
+                </div>
+                <div class="calendar">
+                    <div id="myday" class="day"></div>
+                    <div class="month">January</div>
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <div class="comp">
+                <div class="header">
+                    <span>Time</span>
+                </div>
+                <div class="middle">
+                    <span>12:36pm</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="lfooter">
+            <button class="btn">BUTTON</button>
+        </div>
+        <div class="rfooter">
+            <button class="btn">BUTTON</button>
+            <button class="actionbtn">BUTTON</button>
+        </div>
+    </div>
+</div>
+
+</body>
+<script>
+    let d = new Date();
+    let today = d.getDate();
+    document.getElementById("myday").innerHTML = today;
+</script>
+</html>

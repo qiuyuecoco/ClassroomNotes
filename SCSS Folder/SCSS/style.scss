@@ -1,0 +1,18 @@
+$myred: #FF0000;
+$spacing: 25px;
+$contpadding: 20px;
+
+
+body{
+  background-color: #cccccc;
+  width: 100%;
+
+  .container{
+    width: 100%;
+    color: $myred;
+    padding: $contpadding;
+    height: 100%;
+    display: block;
+  }
+}
+

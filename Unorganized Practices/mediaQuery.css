@@ -1,0 +1,120 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(45deg, #4463dd 0%, #3d8bdd 100%);
+    font-family: 'Open Sans', sans-serif;
+}
+.floatnumber{
+    width: 150px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    height: 325px;
+}
+.left{
+    width: 350px;
+    height: 100%;
+}
+.right{
+    width: calc(90% - 300px);
+    background-color: #edf6fe;
+    border-radius: 15px;
+    height: 300px;
+    position: relative;
+    height: 100%
+}
+.view{
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 15px;
+}
+.view img{
+    width: 100%;
+}
+.floatnumber img{
+    width: 150px;
+}
+.chair{
+    background-color:cadetblue;
+}
+.titlenav{
+    color: #FFFFFF;
+    position: absolute;
+}
+.inner {
+    padding: 50px;
+}
+.headline{
+    color: #FFFFFF;
+}
+.container{
+    width: 80%;
+    margin: 50px auto;
+}
+.botnav{
+    background-color: #ff4679;
+    border-radius: 15px;
+    width: 85%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 80px;
+}
+.bottom{
+    background-color: #edf6fe;
+    margin-top: 40px;
+    border-radius: 15px;
+}
+@media only screen and (max-width: 900px) {
+    .top {
+        display: flex;
+        width: 100%;
+    }
+}
+
+
+
+Collapse 
+
+/*body{*/
+    /*background-color: #4081eb;*/
+/*}*/
+/*.container{*/
+    /*width: calc(100% - 40px);*/
+    /*!*width: 80%;*!*/
+    /*background-color: #FFFFFF;*/
+    /*padding: 20px;*/
+    /*display: flex;*/
+    /*max-width: 1000px;*/
+    /*margin: 0 auto;*/
+/*}*/
+/*.left{*/
+    /*background-color: cornflowerblue;*/
+    /*width: 50%;*/
+    /*height: 100px;*/
+/*}*/
+/*.right{*/
+    /*background-color: darkgreen;*/
+    /*width: 50%;*/
+    /*height: 100px;*/
+
+/*}*/
+/*@media only screen and (max-width: 600px) {*/
+    /*.container{*/
+        /*display: block;*/
+    /*}*/
+    /*.left, .right{*/
+        /*width: 100%;*/
+        /*margin-top: 5%;*/
+    /*}*/
+/*}*/

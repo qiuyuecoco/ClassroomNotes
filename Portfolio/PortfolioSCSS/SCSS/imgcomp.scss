@@ -1,0 +1,25 @@
+@import "variable";
+
+
+.container{
+  width: $width;
+  height: $height;
+  color: $textcolor;
+  padding: $contpadding;
+  display: block;
+  .left{
+    display: flex;
+    height: 400px;
+    width: $width;
+    background-image: url("../../../Media/2013-08-11.jpg");
+    background-color: $lightblue;
+    .nametitle{
+      width: 45%;
+      background-size: contain;
+      background-repeat: no-repeat;
+      display: flex;
+      flex-flow: column;
+      text-align: center;
+    }
+  }
+}

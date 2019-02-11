@@ -1,0 +1,6 @@
+.calendar {
+  flex-direction: column; }
+  .calendar .day {
+    font-size: 50px; }
+  .calendar .month {
+    letter-spacing: 1px; }

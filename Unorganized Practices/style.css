@@ -1,0 +1,21 @@
+p {
+    background-color: lightblue;
+}
+
+#myHeader {
+    text-underline-color: black;
+}
+
+.italics {
+    font-family: italic;
+}
+h1, h2, h3 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+title {
+    opacity: 50%;
+}
+div span {
+    color: red;
+}

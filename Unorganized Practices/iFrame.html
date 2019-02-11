@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        input:invalid {
+            border: 1px solid red;
+        }
+        input:valid {
+            border: 1px solid green;
+        }
+        /*iframe {*/
+            /*border: none;*/
+            /*width: 80%;*/
+            /*height: auto;*/
+        /*}*/
+    </style>
+</head>
+<body>
+    <form>
+        <div>
+        <label for="firstName">First Name: </label><input type="text" name="first" id="firstName" required>
+        </div>
+        <div>
+        <label for="password">Password: </label><input type="password" name="password" id="password" minlength="5" maxlength="15">
+        </div>
+        <div>
+            <label for="email">Email: </label><input type="email" name="email" id="email" placeholder="E-mail address">
+        </div>
+        <input type="reset" value="Clear">
+        <input type="submit" value="Submit">
+    </form>
+    <!--<iframe src="https://www.baidu.com">-->
+        <!--<p>Your browser doesn't support iframes.</p>-->
+    <!--</iframe>-->
+</body>
+</html>

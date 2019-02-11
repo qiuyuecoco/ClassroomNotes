@@ -1,0 +1,77 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-color: #fae2d5;
+  background-image: linear-gradient(to bottom right, #fae2d5, #18323D, #2f7278, #6bb8b4, green, #fae2d5);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.container {
+  width: 85%;
+  height: 85%;
+  display: flex; }
+  .container .left {
+    height: 100%;
+    width: 50%;
+    background-image: url("../../../Media/2013-08-11.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    position: relative;
+    border-radius: 10px 0 0 10px;
+    display: flex;
+    flex-direction: column-reverse; }
+    .container .left .main {
+      text-align: center;
+      color: #fae2d5;
+      text-shadow: 1px 1px #18323D; }
+      .container .left .main h1 {
+        line-height: 10%; }
+      .container .left .main h5 a {
+        color: #fae2d5; }
+  .container .right {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #fae2d5;
+    border-radius: 0 10px 10px 0; }
+    .container .right .item {
+      margin: 0 auto;
+      padding: 20px 8px; }
+      .container .right .item .title {
+        font-size: 24px; }
+      .container .right .item .date {
+        font-size: 12px;
+        color: #6bb8b4; }
+      .container .right .item .details {
+        font-size: 18px; }
+      .container .right .item a {
+        text-decoration: none;
+        text-align: center;
+        color: #18323D;
+        border-radius: 5px;
+        background-color: #6bb8b4;
+        width: 50px;
+        padding: 8px; }
+        .container .right .item a:hover {
+          color: #18323D;
+          background-color: #d4aba4; }
+
+@media only screen and (max-width: 900px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%; } }

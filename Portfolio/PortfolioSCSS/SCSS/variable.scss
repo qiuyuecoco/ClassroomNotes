@@ -1,0 +1,61 @@
+$backcolor: bisque;
+$color1: #18323D;
+$color2: #2f7278;
+$color3: #6bb8b4;
+$color4: #d4aba4;
+$color5: #fae2d5;
+
+$spacing: 25px;
+$contpadding: 20px;
+
+
+$headfont: 24px;
+$mainfont: 18px;
+
+$width: 100%;
+$height: 100%;
+
+@mixin button($button: 10px){
+  text-decoration: none;
+  text-align: center;
+  color: $color1;
+  border-radius: $button;
+  background-color: $color3;
+  &:hover{
+    color: $color1;
+    background-color: $color4;
+  }
+}
+@mixin button1 ($radius){
+  text-decoration: none;
+  background-color: $color1;
+  border-radius: $radius;
+  width: 50px;
+}
+@mixin defaultbtn{
+  padding: 12px 18px;
+  border-radius: 4px;
+  border: 1px solid $color1;
+  font-size: 13px;
+  font-family: "Roboto", sans-serif;
+  background-color: #ffffff;
+  color: $color5
+}
+@mixin actionbtn{
+  @include defaultbtn();
+  background-color: $color2;
+  color: $color5
+}
+@mixin cancelbtn{
+  @include defaultbtn();
+  background-color: $backcolor;
+  color: $color5
+}
+
+//.container{
+//  @include myContainer(25px, 3px);
+//  @extend myclass;
+//}
+//.myclass{
+//  font-size: 13px;
+//}

@@ -1,0 +1,9 @@
+.calendar{
+  flex-direction: column;
+  .day{
+    font-size: 50px;
+  }
+  .month{
+    letter-spacing: 1px;
+  }
+}

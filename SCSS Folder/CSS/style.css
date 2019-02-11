@@ -1,0 +1,9 @@
+body {
+  background-color: #cccccc;
+  width: 100%; }
+  body .container {
+    width: 100%;
+    color: #FF0000;
+    padding: 20px;
+    height: 100%;
+    display: block; }

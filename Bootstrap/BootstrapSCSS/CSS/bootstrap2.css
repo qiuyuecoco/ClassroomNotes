@@ -1,0 +1,47 @@
+.img-container {
+  max-height: 300px; }
+
+.content-container {
+  padding: 25px 50px; }
+
+form {
+  margin-bottom: 10px; }
+
+.card-container {
+  margin-top: 15px; }
+
+footer {
+  height: 60px;
+  margin-top: 15px;
+  background-color: #E6E9EC; }
+
+.pseudo::first-line {
+  color: indianred; }
+
+.pseudo::first-letter {
+  font-size: 24px; }
+
+.pseudo::before {
+  content: '*$*'; }
+
+.pseudo::after {
+  content: '*$*'; }
+
+.card:hover {
+  color: #2f7278;
+  transform: scale(1.3);
+  z-index: 1; }
+
+li:first-child {
+  border: 2px solid blue; }
+
+li:nth-child(3) {
+  border: 2px solid orchid; }
+
+@media print {
+  * {
+    color: red; } }
+
+@media (max-width: 1000px) {
+  .card-body {
+    color: green; } }
