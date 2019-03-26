@@ -1,0 +1,16 @@
+{
+  "name": "heapstrees",
+  "version": "1.0.0",
+  "description": "binary trees and heaps",
+  "main": "src/script.js",
+  "scripts": {
+    "test": "mocha *.spec.js"
+  },
+  "author": "Keisha Ding",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "jshint": "^2.10.2",
+    "mocha": "^6.0.2"
+  }
+}

@@ -1,0 +1,14 @@
+.myList {
+    border: 1px solid #dadfea;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+.list{
+    margin-top: 40px;
+}
+
+/*add styling when new ITEM is created*/
+.myItem{
+    margin-left: 10px;
+}

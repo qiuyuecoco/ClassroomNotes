@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="JSSCSS/CSS/js.css">
+    <link src="JSFiles/main2.js">
+    <script>
+        // var Duck = function() {
+        //     this.quack = function() {alert('Quaaaaaack!');};
+        //     this.feathers = function() {alert('The duck has white and gray feathers.');};
+        //     return this;
+        // };
+        //
+        // var Person = function() {
+        //     this.quack = function() {alert('The person imitates a duck.');};
+        //     this.feathers = function() {alert('The person takes a feather from the ground and shows it.');};
+        //     this.name = function() {alert('John Smith');};
+        //     return this;
+        // };
+        //
+        // var inTheForest = function(object) {
+        //     object.quack();
+        //     object.feathers();
+        // };
+        //
+        // var game = function() {
+        //     var donald = new Duck();
+        //     var john = new Person();
+        //     inTheForest(donald);
+        //
+        // };
+        //
+        // game();
+        function multiplyArrays(array1, array2) {
+            let resultArray = [];
+            // resultArray[0] = array1[0] * array2[0]
+            // resultArray[1] = array1[0] * array2[0]
+            // resultArray[2] = array1[0] * array2[0]
+            // resultArray[3] = array1[0] * array2[0]
+            if (array1.length == array2.length){
+                for (let i = 0; i < array1.length; i++){
+                    resultArray[i] = array1[i] * array2[i]
+                }
+            }
+            else {
+                throw 'nope'
+            }
+            
+            return resultArray;
+        }
+        let answerArray = multiplyArrays([1, 2, 3, 4], [5, 6, 7, 8])
+        let array1 = [1, 2, 3, 4];
+        let array2 = [5, 6, 7, 8];
+        let array3;
+    </script>
+</head>
+<body>
+
+
+</body>
+</html>

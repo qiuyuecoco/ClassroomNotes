@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JQUERY</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script defer rel="script" src="fadeList.js"></script>
+
+    <style>
+        .list{
+            padding-top: 20px;
+        }
+        .active{
+            color: green;
+        }
+    </style>
+
+</head>
+<body>
+    <!--<div id="mydiv">My title</div>-->
+    <!--<div id="second">Here</div>-->
+    <!--<input type="text" id="myinput" value="pizza"/>-->
+
+
+    <input src="blah.png" type="text" class="myInput" onkeyup="checkKey(event)"/>
+    <button onclick="addItem()">Add Item</button>
+
+    <div class="list">
+        <div class="row"></div>
+    </div>
+</body>
+</html>

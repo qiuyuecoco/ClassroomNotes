@@ -1,0 +1,11 @@
+{
+"StoreName": "Harmon's",
+"StoreItems": [
+    {"ItemName": "Shoes", "Price": "$59.99"},
+    {"ItemName": "T-shirt", "Price": "$24.99"},
+    {"ItemName": "Jeans", "Price": "$80"},
+    {"ItemName": "Pineapple", "Price": "$4"}
+
+]
+
+}

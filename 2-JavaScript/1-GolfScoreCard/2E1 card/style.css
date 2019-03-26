@@ -1,0 +1,25 @@
+.container{
+    display: flex;
+}
+.playerBox{
+    border: 1px solid #dadfea;
+    padding: 10px;
+    margin-right: 2px;
+}
+.scoreBox{
+    display: flex;
+    border: 1px solid #dadfea;
+
+}
+.column{
+    border-right: 1px solid #dadfea;
+    padding: 10px;
+}
+.column:last-child{
+    border: none;
+}
+.hole{
+    border: 1px solid #dadfea;
+    height: 25px;
+    width: 25px;
+}
